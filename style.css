@@ -1,1 +1,25 @@
+body {
+    background: #f7f7f7;
+    /*cor de fundo do body*/
+}
 
+.titulo1 {
+    text-align: center;
+    /*alinhando o primeiro titulo*/
+}
+
+.div1 {
+    display: flex;
+    /*declarando que aquela div é uma flexbox*/
+    gap: 20px;
+    /*tem a mesma função do margin (espaçamento entre os elementos) mas é usado no flexbox*/
+    justify-content: center;
+    /*usado para deixar o flexbox no meio do body*/
+}
+
+.titulo3 {
+    background: #c6c6c6;
+    border-radius: 4px d7d7d7;
+    padding: 10px;
+    margin: 0px;
+}
