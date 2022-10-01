@@ -1,6 +1,10 @@
 body {
-    background: #f7f7f7;
+    background: #e7e7e7;
     /*cor de fundo do body*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*mudando a fonte do texto*/
+    margin: 40px;
+    /*usado para desgrudar um pouci da tela*/
 }
 
 .titulo1 {
@@ -8,7 +12,7 @@ body {
     /*alinhando o primeiro titulo*/
 }
 
-.div1 {
+.flex {
     display: flex;
     /*declarando que aquela div é uma flexbox*/
     gap: 20px;
@@ -17,9 +21,31 @@ body {
     /*usado para deixar o flexbox no meio do body*/
 }
 
-.titulo3 {
-    background: #c6c6c6;
-    border-radius: 4px d7d7d7;
-    padding: 10px;
+.titulo2 {
+    background: #ffffff;
+    /*cor de fundo do titulo3*/
+    border-radius: 4px;
+    /*deixa a borda da caixinha arredondada*/
+    padding: 15px;
+    /*aumenta o tamanho da caixa*/
     margin: 0px;
+}
+
+.vermais {
+    background: orangered;
+    color: #e7e7e7;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    grid-column: auto;
+}
+
+.grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+img {
+    max-width: 100%;
 }
